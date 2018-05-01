@@ -13,8 +13,9 @@ def sum(array_object)
 	counter = 0
 	array_object.each do |num|
 		counter += num
-	ends
+	end
 	return counter
+
 end 
 
 
