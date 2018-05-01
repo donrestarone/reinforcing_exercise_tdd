@@ -14,5 +14,9 @@ def sum(array_object)
 			counter += num
 		end
 		return counter
+	else 
+		return counter
 	end 
 end 
+
+

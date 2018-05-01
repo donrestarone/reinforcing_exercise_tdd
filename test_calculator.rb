@@ -33,17 +33,17 @@ class TestCalculator < MiniTest::Test
   end
 
   def test_computes_sum_of_single_number
-    skip
+    
     assert_equal 7, sum([7])
   end
 
   def test_computes_sum_of_two_numbers
-    skip
+    
     assert_equal 18, sum([7, 11])
   end
 
   def test_computes_sum_of_many_numbers
-    skip
+    
     assert_equal 25, sum([1,3,5,7,9])
   end
 end
